@@ -4,49 +4,47 @@
   .margin {
     &-#{$size-name} {
       margin: $size-value;
-
-      &-block-start {
-        margin-block-start: $size-value;
-      }
-      &-block-end {
-        margin-block-end: $size-value;
-      }
-      &-block {
-        margin-block: $size-value;
-      }
-      &-inline-start {
-        margin-inline-start: $size-value;
-      }
-      &-inline-end {
-        margin-inline-end: $size-value;
-      }
-      &-inline {
-        margin-inline: $size-value;
-      }
+    }
+    &-block-start-#{$size-name} {
+      margin-block-start: $size-value;
+    }
+    &-block-end-#{$size-name} {
+      margin-block-end: $size-value;
+    }
+    &-block-#{$size-name} {
+      margin-block: $size-value;
+    }
+    &-inline-start-#{$size-name} {
+      margin-inline-start: $size-value;
+    }
+    &-inline-end-#{$size-name} {
+      margin-inline-end: $size-value;
+    }
+    &-inline-#{$size-name} {
+      margin-inline: $size-value;
     }
   }
   .padding {
     &-#{$size-name} {
       padding: $size-value;
-
-      &-block-start {
-        padding-block-start: $size-value;
-      }
-      &-block-end {
-        padding-block-end: $size-value;
-      }
-      &-block {
-        padding-block: $size-value;
-      }
-      &-inline-start {
-        padding-inline-start: $size-value;
-      }
-      &-inline-end {
-        padding-inline-end: $size-value;
-      }
-      &-inline {
-        padding-inline: $size-value;
-      }
+    }
+    &-block-start-#{$size-name} {
+      padding-block-start: $size-value;
+    }
+    &-block-end-#{$size-name} {
+      padding-block-end: $size-value;
+    }
+    &-block-#{$size-name} {
+      padding-block: $size-value;
+    }
+    &-inline-start-#{$size-name} {
+      padding-inline-start: $size-value;
+    }
+    &-inline-end-#{$size-name} {
+      padding-inline-end: $size-value;
+    }
+    &-inline-#{$size-name} {
+      padding-inline: $size-value;
     }
   }
 }
